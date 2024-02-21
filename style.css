@@ -1,0 +1,108 @@
+body{
+    
+    background-size: Cover;
+    background-attachment: fixed;
+    font-family: monospace;
+}
+
+    
+h1{
+    font-family: "Fantasy";
+    font-size: 45px;
+    color: rgb(235, 140, 17);
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+p{
+
+    font-size: 30px;
+    color: #eb0808;
+    text-align: center;
+    font-family: Showcard Gothic;          
+
+
+}
+i{
+    color:rgb(179, 12, 194);
+    font-size: 40px;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace, sans-serif;
+}
+
+
+
+h2{
+    font-size: 40px;
+    color: rgb(179, 12, 194);    
+}
+span{
+    font-size: 40px;
+    color:sandybrown
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px 0 20px;
+
+    
+}
+.container .heading{
+    width: 50%;
+    padding-bottom: 50px;
+}
+.container .heading h2{
+    font-size: 3em;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    border-bottom: 3px solid rgb(66, 44, 44);
+    
+}
+.container .heading h2 span{
+    font-weight: 100;
+    
+}
+.container .box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.container .box .sweet{
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+}
+
+.container .box .sweet img{
+    width: 100%;
+    padding-bottom: 15px;
+    border-radius: 5px;
+}
+.text1{
+    color:#0000cd;
+}
+.text2{
+    color:rgb(160, 54, 22);
+}
+.text3{
+    color:mediumblue;
+    font-style: oblique;
+    padding-bottom: inherit;
+    font-weight: bolder;
+}
+.text4{
+    color:mediumblue;
+    font-weight: bolder;
+    font-style: oblique;
+    padding-bottom: inherit;
+}
